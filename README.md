@@ -22,5 +22,7 @@ a shipping invoice added to shopper's list of invoices.
 * A logged in shopper can see a list of his purchases.
 
 Sprint I (PI): CRC Model, Files and Data Structures, Walkthrough scenarios.
+
 Sprint II (PII): Implementing the back end of the application
+
 Sprint III & Release I (PIII): Implementing Front-End of application
