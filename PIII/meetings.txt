@@ -1,0 +1,224 @@
+Planning Meeting Minutes 1
+================================
+Date and time: 22 July 2016, 11:30 am
+Location: BA, St George Campus, UofT
+
+Set of tasks for this week:
+1. update CRC card
+2. Implement API
+3. Implement BackEnd:
+-Implement Product Manager, Shopper Manger, Distribution Manager with files
+-Implement Heap(Exceptions connected to this), Distribution Centre, Delivery Route, Interface Location
+-update Product, Product category(change id to static), Shipping Invoice, Shopping Cart(save, cancel), Shopper, Observer, Observable
+-Implement Inventory
+-Implement Administrator, User
+4. JavaDoc
+5. meeting file
+
+Distribution of tasks:
+1. Tatiana Osipova: Make a meeting file, API, Inventory, Observer, Observable, Shopper, Product Category, Product, Shopping Cart, Shipping Invoice
+2. Hagr Saad: Implements Product Manager, Shopper Manager, Distribution Manager, csv files for all of them, API
+3. Seohee Jung: Update CRC cards, User, Administrator, API
+4. Susan Ye: Javadoc, API, Distribution centre, Delivery Route
+5. HYEONG OOK YU: Heap, Derivery Route, Location, Distribution Centre, API
+
+
+Status Meeting Minutes 
+==============================
+Date and time: 25 Jul 2016, 16:30 
+Location: Robarts Library, UofT
+Hagr Saad:
+	-Created csv files for Products, Shoppers, Distribution Centers
+	-Implemented ProductManager except of saveFile function
+	-will implement function saveFile in ProductManager
+	-add shoppers and distribution centres to csv files
+	-will fix Product Manager
+Tatiana Osipova:
+    	-Implemented Inventory
+	-fixed Shopper, Shopping Cart, Shipping Invoice, Product
+	-will implement DistributionCenter
+Seohee Jung:
+	-Implemented Administrator and User
+	-will do CRC cards
+	-will implement in Shopper Manager
+Susan Ye:
+	-Implemented some of the Javadoc
+	-will do Javadoc
+	-will fix the algorithm of getting the shortest route
+	-will fix the Distribution Centre
+HYEONG OOK YU:
+	-Implemented Distribution Centre
+	-Implemented DeliveryRoute
+	-will fix the algorithm of getting the shortest route
+
+Planning Meeting Minutes 2
+================================
+Date and time: 27 July 2016, 16:00 
+Location: Robarts Library, St George Campus, UofT
+
+Current state of the project:
+	-done: DeliveryRoute algorithm, Product, ProductCategory
+	-implemented: ProductManager, Administrator, Exceptions, City, Customer 
+	-almost done: ShoppingCart, Shopper, Customer, DistributionManager
+	-need to do:Javadoc, CRC cards, API, test every class, 
+Tasks for tomorrow:
+	-Finish Javadoc (Everyone should work on this)
+	-Update CRC (Seohee)
+	-Finish API (Everyone)
+	-Start Testing and debugging
+
+Status Meeting Minutes 2
+==============================
+Date and time: 28 Jul 2016, 16:30 
+Location: Robarts Library, UofT
+Hagr Saad:
+	-Implemented the loadFile method in DistributionManager
+	-Finished Javadoc for Product, ProductCategory, ProductManager, etc.
+	-Completely finished ProductManager
+	-will work on addCustomer in API, and testing/debugging
+Tatiana Osipova:
+    	-Implemented DistributionManager
+	-fixed ShopperManager
+	-will implement Project, and testing/debugging
+Seohee Jung:
+	-Implemented ShopperManager, User,Administrator, and javadoc for some methods
+	-will do CRC cards
+	-will implement Javadocs and finish debugging/testing User/Shopper/Customer
+Susan Ye:
+	-Implemented some of the Javadoc, DeliveryRoute, DistributionCenter 
+	-will do more Javadoc
+	-will test the algorithm of getting the shortest route
+	-will test the Distribution Centre	
+HYEONG OOK YU:
+	-Implemented Distribution Centre 
+	-Implemented DeliveryRoute
+	-Worked on Project API
+	-will test the algorithm of getting the shortest route
+
+Status Meeting Minutes 3
+==============================
+Date and time: 29 Jul 2016, 12:00 
+Location: Robarts Library, UofT
+Hagr Saad:
+	-Fixed ProductManager
+	-Fixed DistributionManager
+	-will work on Project, and testing/debugging
+Tatiana Osipova:
+	-Fixed ShopperManager
+	-will implement Project, and testing/debugging
+Seohee Jung:
+	-Finished CRC cards
+	-Finished the API testing
+	-will be debugging/testing User/Shopper/Customer
+Susan Ye:
+	-Implemented most of the Javadoc 
+	-Update CRC 
+	-will be testing/debugging	
+HYEONG OOK YU:
+	-Fixed algorithm which finds the shortest path
+	-Debugged/tested API 
+	-will work on Project API
+
+Planning Meeting Minutes 3
+================================
+Date and time: 1 Aug 2016, 16:00 
+Location: Bahen, St George Campus, UofT
+
+Current state of the project:
+	-done: Project API,phase 2, javadoc, backend
+	-implemented: MainGUI(menu bar), loginGUI (login screen)
+	-almost done: Main Screen, registration GUI
+	-need to do: API for Phase 3, GUI, test backend thoroughly  
+Tasks for tomorrow:
+	-Finish GUI for Admin
+	-Finish GUI for Shopper (ShoppingCart)
+	-Finish Main Screen GUI
+	-Finish API (Everyone)
+
+Status Meeting Minutes 4
+==============================
+Date and time: 2 Aug 2016, 12:00 
+Location: Robarts Library, UofT
+Hagr Saad:
+	-Implemented Login Screen GUI, Customer and Shopper Registration
+	-Connected the Login and Signup to the Main Screen
+	-Implemented Menu Bar in the Main Screen
+	-will work on CustomerRegistration, ShopperRegistration actionListeners
+	-will work on the Administrator GUI and connect to backend
+Tatiana Osipova:
+	-Implemented ShoppingCart GUI, AdministratorGUI
+	-will finish ShoppingCart and connect to the backend
+Seohee Jung:
+	-Worked on Phase 3 API
+	-Worked on the API testing
+	-will be debugging/testing backend
+Susan Ye:
+	-Implemented search bar in the Main Screen
+	-Display products in the Main Screen
+	-Finish the Main Screen GUI
+HYEONG OOK YU:
+	-Worked on the Phase 3 API with Seohee
+	-Debugged/tested API 
+	-will work on Project API and backend
+
+Status Meeting Minutes 5
+==============================
+Date and time: 3 Aug 2016, 14:00 
+Location: Bahen, UofT
+Hagr Saad:
+	-Connected the Login, and Signup GUI to the backend
+	-Created login, logout, and sign up GUI
+	-Add administrator toolbar and shopper toolbar
+	-Implemented the GUI for administrator and shopper toolbar
+	-will work on CustomerRegistration, and actionlisteners for Administrator/Shopper toolbar
+	-will test and debug login and signup
+Tatiana Osipova:
+	-Implemented ShoppingCart GUI
+	-Debugged the backend and API
+	-Implemented the remove button in the shopping cart
+	-will finish ShoppingCart and connect to the backend
+Seohee Jung:
+	-Worked on Phase 3 API
+	-Worked on the API testing
+	-Worked on UserManager and backend 
+	-will continue debugging/testing backend
+Susan Ye:
+	-Implemented price range search in the Main Screen
+	-Implemented product category search
+	-Display products in the Main Screen
+	-Finish the Main Screen GUI and implement add to shopping cart buttons
+HYEONG OOK YU:
+	-Worked on the Phase 3 API with Seohee
+	-Debugged/tested API 
+	-worked on backend 
+	-will continue work on Project API and backend
+
+Status Meeting Minutes 5
+==============================
+Date and time: 4 Aug 2016, 13:00 
+Location: Bahen, UofT
+Hagr Saad:
+	-Finished Login, Sign Up and Log out 
+	-Implemented clear and save cart in shopping cart gui
+	-will work on check out in shopping cart gui
+	-will work on the scroll bar
+Tatiana Osipova:
+	-Implemented add Product, add Product Category, and add DistributionCenter in Admin controls
+	-Worked on and completed Administrator controls 
+	-Worked on shipping invoice for shopper
+	-will finish ShippingInvoice gui
+Seohee Jung:
+	-Worked on UserManager load file
+	-Worked on backend 
+	-will continue debugging/testing backend
+	-will continue UserManager implementation
+Susan Ye:
+	-Implemented add to shopping cart button in main screen
+	-Connected main screen to Shopping cart
+	-Fixed login bugs
+	-will work on generate sales report
+HYEONG OOK YU:
+	-Worked on the Phase 3 API 
+	-Worked on UserManager
+	-Debugged/tested API 
+	-will work on Project API and backend

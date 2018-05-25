@@ -1,0 +1,121 @@
+Planning Meeting Minutes 1
+================================
+Date and time: 22 July 2016, 11:30 am
+Location: BA, St George Campus, UofT
+
+Set of tasks for this week:
+1. update CRC card
+2. Implement API
+3. Implement BackEnd:
+-Implement Product Manager, Shopper Manger, Distribution Manager with files
+-Implement Heap(Exceptions connected to this), Distribution Centre, Delivery Route, Interface Location
+-update Product, Product category(change id to static), Shipping Invoice, Shopping Cart(save, cancel), Shopper, Observer, Observable
+-Implement Inventory
+-Implement Administrator, User
+4. JavaDoc
+5. meeting file
+
+Distribution of tasks:
+1. Tatiana Osipova: Make a meeting file, API, Inventory, Observer, Observable, Shopper, Product Category, Product, Shopping Cart, Shipping Invoice
+2. Hagr Saad: Implements Product Manager, Shopper Manager, Distribution Manager, csv files for all of them, API
+3. Seohee Jung: Update CRC cards, User, Administrator, API
+4. Susan Ye: Javadoc, API, Distribution centre, Delivery Route
+5. HYEONG OOK YU: Heap, Derivery Route, Location, Distribution Centre, API
+
+
+Status Meeting Minutes 
+==============================
+Date and time: 25 Jul 2016, 16:30 
+Location: Robarts Library, UofT
+Hagr Saad:
+	-Created csv files for Products, Shoppers, Distribution Centers
+	-Implemented ProductManager except of saveFile function
+	-will implement function saveFile in ProductManager
+	-add shoppers and distribution centres to csv files
+	-will fix Product Manager
+Tatiana Osipova:
+    	-Implemented Inventory
+	-fixed Shopper, Shopping Cart, Shipping Invoice, Product
+	-will implement DistributionCenter
+Seohee Jung:
+	-Implemented Administrator and User
+	-will do CRC cards
+	-will implement in Shopper Manager
+Susan Ye:
+	-Implemented some of the Javadoc
+	-will do Javadoc
+	-will fix the algorithm of getting the shortest route
+	-will fix the Distribution Centre
+HYEONG OOK YU:
+	-Implemented Distribution Centre
+	-Implemented DeliveryRoute
+	-will fix the algorithm of getting the shortest route
+
+Planning Meeting Minutes 2
+================================
+Date and time: 27 July 2016, 16:00 
+Location: Robarts Library, St George Campus, UofT
+
+Current state of the project:
+	-done: DeliveryRoute algorithm, Product, ProductCategory
+	-implemented: ProductManager, Administrator, Exceptions, City, Customer 
+	-almost done: ShoppingCart, Shopper, Customer, DistributionManager
+	-need to do:Javadoc, CRC cards, API, test every class, 
+Tasks for tomorrow:
+	-Finish Javadoc (Everyone should work on this)
+	-Update CRC (Seohee)
+	-Finish API (Everyone)
+	-Start Testing and debugging
+
+Status Meeting Minutes 2
+==============================
+Date and time: 28 Jul 2016, 16:30 
+Location: Robarts Library, UofT
+Hagr Saad:
+	-Implemented the loadFile method in DistributionManager
+	-Finished Javadoc for Product, ProductCategory, ProductManager, etc.
+	-Completely finished ProductManager
+	-will work on addCustomer in API, and testing/debugging
+Tatiana Osipova:
+    	-Implemented DistributionManager
+	-fixed ShopperManager
+	-will implement Project, and testing/debugging
+Seohee Jung:
+	-Implemented ShopperManager, User,Administrator, and javadoc for some methods
+	-will do CRC cards
+	-will implement Javadocs and finish debugging/testing User/Shopper/Customer
+Susan Ye:
+	-Implemented some of the Javadoc, DeliveryRoute, DistributionCenter 
+	-will do more Javadoc
+	-will test the algorithm of getting the shortest route
+	-will test the Distribution Centre	
+HYEONG OOK YU:
+	-Implemented Distribution Centre 
+	-Implemented DeliveryRoute
+	-Worked on Project API
+	-will test the algorithm of getting the shortest route
+
+Status Meeting Minutes 3
+==============================
+Date and time: 29 Jul 2016, 12:00 
+Location: Robarts Library, UofT
+Hagr Saad:
+	-Fixed ProductManager
+	-Fixed DistributionManager
+	-will work on Project, and testing/debugging
+Tatiana Osipova:
+	-Fixed ShopperManager
+	-will implement Project, and testing/debugging
+Seohee Jung:
+	-Finished CRC cards
+	-Finished the API testing
+	-will be debugging/testing User/Shopper/Customer
+Susan Ye:
+	-Implemented most of the Javadoc 
+	-Update CRC 
+	-will be testing/debugging	
+HYEONG OOK YU:
+	-Fixed algorithm which finds the shortest path
+	-Debugged/tested API 
+	-will work on Project API
+

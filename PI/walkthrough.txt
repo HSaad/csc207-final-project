@@ -1,0 +1,17 @@
+Scenario: logged in user locates all items of category TSHIRT with a price in the range 5 to 10 dollars (inclusive) and places an order for two such items
+
+0) Shopper: choose category TSHIRT, refine price range to 5-10 dollars
+   given Inventory, Product Category, getPriceRange, sortByCategory
+1) Inventory: returns list of Products in Product Category TSHIRT in the price range $5-10
+   given Product Category, getListOfProducts, getPriceRange
+2) Shopper: add two items to cart
+   given Shopping Cart, addToCart
+3) Shopping Cart: add items
+   given ShoppingCart, addProduct
+4) Shopper: places order
+   given checkOut, ShippingInvoice, ShoppingCart, updateAvailableQuantity
+5) Shipping Invoice: adds new shipping invoice to list of Shipping Invoices of Shopper
+   given updateInvoices, ShoppingCart
+6) Inventory: availability updates accordingly
+   given Product Category, update, Inventory
+

@@ -1,0 +1,27 @@
+We will have three classes dealing with our saved files - ShopperManager and ProductManager.
+
+In the ShopperManager class, we will have a HashMap<String, Shopper> to store all the shoppers. String will be the shopper's login username, which can be searched by the admin, and it will return the Shopper object associated to the username for ease of manipulation. We can easily add new Shoppers, as well, with the same format. 
+
+In the ProductManager class, we will have a HashMap<Product Category, ArrayList<Product>> to store the list of products sorted by product category. String will be the category name, and that will return the List of Product objects in that product category.
+We will also have methods for refining searches - the shopper will be able to refine their search of Products by price range. Additionally, they will be able to view products sorted by availability. We will have an ArrayList<Product> that will hold the search results accordingly.
+
+In the InvoiceManager class, we will have a HashMap<Shopper, ArrayList<Shipping Invoice>> to store the list of shipping invoices for each Shopper. It will be saving this information to the Shipping Invoice file.
+
+- - - - - -
+
+Our files will all be of format csv.
+
+In the Shopper file, we will have the following comma-separated values per line: 
+   firstName,lastName, address, email, phoneNumber
+Every Shopper that is added will follow this format. We will easily be able to parse the information when creating new serialized Shopper instances. ShopperManager will be able to take care of this.
+
+In the Shipping Invoice file, we will have the following comma-separated values per line:
+   Shopper, trackingNumber, productList, totalPrice
+The first value of each line will indicate whose shipping invoice it belongs to; the three following values are info of the Shipping Invoice. 
+
+In the Product file, we will have the following lines of comma-separated values per line:
+ One line, which will be a Product Category, will have two values:
+   description, categoryCode
+ Another line, which will be a Product, will have six values:
+   image, ID, description, category, price, quantity
+Every Product and Product Category that is added will follow this format in the file. ProductManager will be able to create Product instances using the values as well as add Product Category and Product instances in the given format to the file.
